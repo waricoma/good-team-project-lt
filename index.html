@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121444362-1"></script>
+	<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121444362-1');
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" href="asset/icon.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@waritocomatta">
+	<meta name="twitter:creator" content="@Swaritocomatta">
+	<meta property="og:title" content="チーム開発がいい感じになったので共有">
+	<meta property="og:description" content="Motone Adachi(@waritocomatta)が株式会社Aisiiにて開発メンバを集めるところからはじめてWebAPI設置など工夫してみんなで幸せにコーディングできたお話">
+	<meta property="og:image" content="https://waricoma.github.io/good-team-project-lt/asset/thumbnail.png">
+	<title>チーム開発がいい感じになったので共有｜Motone Adachi｜@waritocomatta</title>
+	<script src="lib/js/jquery-3.3.1.min.js"></script>
+	<script src="lib/js/createjs.min.js"></script>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+	<link rel="stylesheet" href="css/my.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+<div class="reveal">
+	<div id="fluffyWaricoma">
+		<div class="waricoma">
+			<span>N HIGH</span>
+			<img src="asset/waricoma.svg">
+			<span>SCHOOL</span>
+		</div>
+		<div class="waricoma">
+			<img src="asset/waricoma.svg">
+			<span>@waritocomatta</span>
+		</div>
+		<div class="waricoma">
+			<img src="asset/waricoma.svg">
+		</div>
+		<div class="waricoma">
+			<span>MOTONE</span>
+			<img src="asset/waricoma.svg">
+			<span>ADACHI</span>
+		</div>
+		<div class="waricoma">
+			<span>足立</span>
+			<img src="asset/waricoma.svg">
+			<span>素音</span>
+		</div>
+	</div>
+	<div class="inside-shadow-layer"></div>
+	<div id="solid-animation"></div>
+	<div id="check-animation"></div>
+
+	<div class="slides">
+		<section>
+			<section data-background="#eae264"></section>
+			<section data-background="#d35400" data-background-transition="zoom" style="filter: drop-shadow(30px 30px 2px #000000);">
+				<p id="titleStyle">
+					チーム開発がいい感じになったので共有
+				</p>
+			</section>
+		</section>
+		<section data-background-transition="zoom" style="filter: drop-shadow(30px 30px 2px #000000);">
+			<section data-background="#622d18">
+				<h1 id="profileStyle">
+					自己<span style="font-family: 'PixelMplus12-Regular';">紹</span>介
+				</h1>
+			</section>
+			<section data-background="#622d18" style="font-size: 1em;">
+				<p style="display: inline-block; width: 20%; margin: 0;">
+					<img class="castle" src="asset/fantasy/castle.svg" style="left: 0;"/>
+				<p style="
+						font-family: 'PixelMplus10-Regular';
+						position: absolute;
+						left: 0;
+						top: -1em;
+						display: inline-block;
+						font-size: 0.5em;
+						margin: 0;">
+					株式会社Grander
+				</p>
+				</p>
+				<p style="display: inline-block; width: 20%; margin: 0;">
+					<img class="castle" src="asset/fantasy/castle2.svg" style="left: 22.5%;">
+				<p style="
+						font-family: 'PixelMplus10-Regular';
+						position: absolute;
+						left: 22.5%;
+						top: -1em;
+						display: inline-block;
+						font-size: 0.5em;
+						margin: 0;">
+					株式会社Aijus
+				</p>
+				</p>
+				<p style="display: inline-block; width: 20%; margin: 0;">
+					<img class="castle" src="asset/fantasy/castle1.svg" style="left: 45%;">
+				<p style="
+						font-family: 'PixelMplus10-Regular';
+						position: absolute;
+						left: 45%;
+						top: -1em;
+						display: inline-block;
+						font-size: 0.5em;
+						margin: 0;">
+					株式会社TechBeans
+				</p>
+				</p>
+				<p style="display: inline-block; width: 20%; margin: 0;">
+					<img class="castle" src="asset/fantasy/castle2.svg" style="left: 67.5%;">
+				<p style="
+						font-family: 'PixelMplus10-Regular';
+						position: absolute;
+						left: 67.5%;
+						top: -1em;
+						display: inline-block;
+						font-size: 0.5em;
+						margin: 0;">
+					未踏ジュニア
+				</p>
+				</p>
+				<p style="display: inline-block; width: 20%; margin: 0;">
+					<img class="castle" src="asset/fantasy/castle.svg" style="top: 51.5%; left: 0;">
+				<p style="
+						font-family: 'PixelMplus10-Regular';
+						position: absolute;
+						left: 0;
+						top: 48%;
+						display: inline-block;
+						font-size: 0.5em;
+						margin: 0;">
+					N高起業部
+				</p>
+				</p>
+
+				<p id="ecMonsterStyle" class="fragment">
+					<img class="castle monster" src="asset/fantasy/monster.svg" style="top: 61.5%; left: 32.5%;">
+				</p>
+				<p id="ecStyle" class="fragment">
+					ECサイト保守開発
+				</p>
+				<p id="iotMonsterStyle" class="fragment">
+					<img class="castle monster" src="asset/fantasy/monster1.svg" style="top: 61.5%; left: 55%;">
+				</p>
+				<p id="iotStyle" class="fragment">
+					新人教育・IoT開発
+				</p>
+				<p id="gourmetMonsterStyle" class="fragment" style="display: inline-block; width: 20%; margin: 0;">
+					<img class="castle monster" src="asset/fantasy/monster2.svg" style="top: 61.5%; left: 77.5%;">
+				</p>
+				<p id="gourmetStyle" class="fragment">
+					グルメ情報サイト開発
+				</p>
+			</section>
+			<section data-background="#622d18">
+				<canvas id="circles"></canvas>
+				<div id="circlesTrigger" class="fragment"></div>
+				<div id="getPriceTrigger" class="fragment"></div>
+			</section>
+		</section>
+		<section>
+			<section><h1 id="pointStyle">何があった？</h1></section>
+			<section style="font-size: 2.2em;font-family: 'nicokaku_v1';filter: drop-shadow(0 0 10px #000000);">
+				Aisii株式会社さんへSESをすることになった！
+				<p class="fragment" style="font-size: 0.5em;">...開発チームづくりから</p>
+			</section>
+			<section style="font-family: 'GenEiAntique_v4';filter: drop-shadow(0 0 10px #000000);">
+				<table style="background-color: rgba(0,0,0,0.35);">
+					<thead>
+					<tr>
+						<th></th>
+						<th>かんゔぁやしくん</th>
+						<th>りんけーさん</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr class="fragment highlight-red">
+						<td style="font-family: 'fontopoSunnyDay-Regular'">Lang:</td>
+						<td style="font-family: 'fontopoSunnyDay-Regular'">Java☕</td>
+						<td style="font-family: 'fontopoSunnyDay-Regular'">Node.js</td>
+					</tr>
+					<tr>
+						<td style="font-family: 'fontopoSunnyDay-Regular'">Favorite:</td>
+						<td>株・かわいい<br>猫を眺める</td>
+						<td>鉄道・かわいい<br>洋服を着る</td>
+					</tr>
+					<tr>
+						<td style="font-family: 'fontopoSunnyDay-Regular'">Other:</td>
+						<td>
+							<span style="font-family: 'nicokaku_v1'">N高生</span>
+							<br>SUPERCON<br>予選通過🎊</td>
+						<td>
+							<span style="font-family: 'nicokaku_v1'">N高卒業生</span>
+							<br>株式会社UUUM<br>PGインターン済
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="2">一緒にアプリとか作ったことある</td>
+					</tr>
+					</tbody>
+				</table>
+			</section>
+			<section style="color: black;font-size: 2.5em;font-family: '851H-kktt_004';filter: drop-shadow(5px 5px 10px #FFFFFF);" data-background="#d35400" data-background-transition="zoom">
+				<p>なんとかしたい!</p>
+				<p class="fragment">如何にしてみんなで<br>幸せに<br>ゴリゴリするか🔥</p>
+			</section>
+		</section>
+		<section>
+			<section data-background="#e84118"><h1 id="actionStyle">やったこと</h1></section>
+			<section data-background="#e84118" style="filter: drop-shadow(1px 1px 8px #000000);">
+				<span style="font-family: 'nicokaku_v1'; font-size: 1.7em;">データの取扱周りをWebAPI化</span>
+				<table class="fragment" style="font-size: 1.2em;font-family: 'GenEiAntique_v4';background-color: rgba(0,0,0,0.35);">
+					<tr>
+						<td>各自好きな言語を使える！</td>
+					</tr>
+					<tr>
+						<td>API側でログ管理！</td>
+					</tr>
+					<tr>
+						<td>機能開発の切り出しがむっっちゃ楽！</td>
+					</tr>
+					<tr>
+						<td>開発の衝突も無い！！</td>
+					</tr>
+					<tr>
+						<td class="fragment highlight-blue">会社ルータがダウンすると道連れになる</td>
+					</tr>
+				</table>
+			</section>
+		</section>
+		<section data-background-transition="zoom" style="filter: drop-shadow(1px 1px 8px #000000);">
+			<section data-background="#079992" data-background-transition="zoom"><h1 id="memoStyle">まとめ</h1></section>
+			<section>
+				<table style="font-size: 1.2em;font-family: 'GenEiAntique_v4';background-color: rgba(0,0,0,0.35);">
+					<tr>
+						<td>
+							割とコミュニケーションが深まってて<br>優秀で隙な方にお声掛けする
+							<p class="fragment" style="color: red;font-size: 0.65em;">
+								⇔ 優秀らしい?方、或いは初心者を何故か追加する
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							彼らが優秀でいられる環境を可能な限り実現する
+							<p class="fragment" style="color: red;font-size: 0.65em;">
+								⇔ みんなで流行りの〇〇言語を書くぞ！覚えるぞ！！
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							API・ライブラリ実装はいいぞ
+							<p class="fragment" style="color:yellow; font-size: 0.65em;">
+								☆ (因みに)ストレス控えめで全体でコードに統一感を出せる
+							</p>
+						</td>
+					</tr>
+				</table>
+			</section>
+		</section>
+		<section data-background-transition="zoom" style="filter: drop-shadow(1px 1px 8px #000000);">
+			<section data-background="#b8e994"><h1 id="presentStyle">おまけ</h1></section>
+			<section data-background="#b8e994">
+				<table style="font-size: 1em;font-family: 'GenEiAntique_v4';background-color: rgba(255,255,255,0.35);">
+					<tr>
+						<td>MAMP:</td>
+						<td>MySQL, Nginx, phpMyAdminなどなどサクッと構築してくれる。</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.9em;">mysql-rest-api:</td>
+						<td>
+							機能は名前の通り。npmで導入可。<br>
+							Expressベースで改造し易い。
+						</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.9em;">Database Support:</td>
+						<td>
+							最強のDBクライアント<br>
+							IntelliJのプラグイン
+						</td>
+					</tr>
+					<tr>
+						<td style="font-size: 0.9em;">reveal.js:</td>
+						<td>
+							MarkdownやHTMLで<br>スライドを作れる。<br>CSS/JSなどで細部も拘れる。
+						</td>
+					</tr>
+				</table>
+			</section>
+			<section data-background="#b8e994">
+				<h1 style="
+						position: absolute;
+  						width:  100%;
+    					height: 1500%;
+    					top: 0;
+    					left: 0;
+				">
+				<iframe style="position: absolute;top:0;left:0;width: 100%;height: 100em;" srcdoc='
+				<script src="lib/js/aframe.min.js"></script>
+				<a-scene>
+				<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9">
+				<a-animation
+    attribute="rotation"
+    from="20 0 0"
+    to="20 360 0"
+    direction="alternate"
+    dur="1000"
+    repeat="indefinite"
+    easing="ease">
+  </a-animation>
+				</a-box>
+    			</a-scene>
+				'></iframe>
+				</h1>
+			</section>
+		</section>
+		<section data-background-transition="zoom" data-background="#1B1464">
+			<h1 id="thanksStyle">
+				ご清聴下さりありがとうございました。
+				<br>
+				m(_ _ )m <span style="font-family: 'PixelMplus12-Regular'">ﾍﾟｸﾘ</span>
+			</h1>
+		</section>
+	</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/my.js"></script>
+
+<script>
+  // More info about config & dependencies:
+  // - https://github.com/hakimel/reveal.js#configuration
+  // - https://github.com/hakimel/reveal.js#dependencies
+  Reveal.initialize({
+    history: true,
+    dependencies: [
+      { src: 'plugin/markdown/marked.js' },
+      { src: 'plugin/markdown/markdown.js' },
+      { src: 'plugin/notes/notes.js', async: true },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+    ]
+  });
+</script>
+</body>
+</html>

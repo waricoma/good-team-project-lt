@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" buffered-rendering="static" width="180px" height="180px" viewBox="0,0,180,180">
+<desc>
+This file was created by http://www.h2.dion.ne.jp/~defghi/img2svg3/dot2svg3.htm at Sun Jun 24 2018 14:06:59 GMT+0900 (JST)
+path count:6
+</desc>
+<defs>
+<g id="dots">
+<path d="m0,0h180v148h-4v-8h-8v-4h-8v-32h4v-4h-4v-8h-4v-4h-4v-12h8v-4h-4v-4h-4v-4h-4v20h-4v4h-4v-40h-4v-8h-4v-12h4v-8h-4v-4h-4v20h-4v4h-4v4h-4v4h-4v8h4v20h-4v-4h-4v-12h-8v-20h8v-4h-4v-4h-4v-4h-4v-4h-4v-12h8v-4h-4v-4h-8v20h-4v8h-4v4h-4v4h4v20h-4v12h-4v4h-8v-20h4v-8h-4v-4h-4v-4h-4v-4h-4v-8h8v-8h-4v-4h-4v4h-4v20h-4v4h-4v24h-8v-4h-4v24h-4v4h-4v8h-4v4h4v32h-8v4h-8v8h-4zm32,76h8v12h-4v-4h-4zm-32,80h4v4h20v4h12v8h20v8h-56zm176,0h4v24h-56v-8h20v-8h12v-4h20z" opacity="0"/>
+<path d="m88,4h4v16h-4zm-36,12h4v4h-4v16h-4v-16h4zm76,0h4v4h-4zm-72,8h4v4h-4zm28,0h4v4h-4zm48,0h4v4h-4v8h-4v-8h4zm-56,12h4v4h-4zm28,0h4v4h-4zm28,4h4v4h-4zm-92,4h4v4h-4zm20,0h4v4h4v8h-4v20h4v4h-8v-28h4v-4h-4zm56,0h4v4h-4v4h4v28h-8v-4h-4v-4h-4v-8h-4v-4h8v12h4v4h4v-20h-4v-8h4zm-76,8h4v28h-4v-8h-4v-4h4zm96,0h4v28h-4zm-60,8h4v4h-4zm-48,4h4v20h4v4h4v4h-4v-4h-4v-4h-4zm120,0h4v4h-4zm8,8h4v4h-4zm-8,4h4v8h-4v4h-4v4h-8v-8h4v4h4v-4h4zm-128,16h4v4h-4zm136,0h4v4h-4zm-140,8h4v4h-4zm144,0h4v4h-4zm-148,36h8v4h-8zm148,0h8v4h-8zm-156,4h4v4h-4zm168,0h4v4h-4zm-164,16h12v4h-12zm152,0h12v4h-12zm-20,12h4v4h-4zm-84,8h52v4h-52zm56,0h12v4h-12z" fill="#055" opacity="0.33"/>
+<path d="m92,4h4v4h4v4h-4v-4h-4zm-36,16h4v4h-4v4h-4v-4h4zm76,0h4v4h-4v4h-4v-4h4zm-52,20h4v20h-4zm-48,32h8v4h-8zm8,8h4v16h-4zm96,0h4v4h-4zm0,12h4v4h-4zm-116,12h4v32h-4zm136,0h4v32h-4zm12,36h4v4h-4zm-164,16h4v4h-4zm16,0h4v4h8v4h-8v-4h-4zm136,0h4v4h-4v4h-8v-4h8zm16,0h4v4h-4zm-136,8h4v8h-4zm104,0h4v4h-4zm-32,12h4v4h-4z" fill="#aaa" opacity="0.67"/>
+<path d="m92,8h4v4h-4zm-4,32h12v20h-16v-16h4zm-40,16h8v4h4v20h-8v8h-4v4h-4v-32h4zm76,0h8v4h4v32h-4v-4h-4v-8h-8v-20h4zm-92,12h4v4h-4zm120,0h4v8h-4zm-64,24h4v8h4v12h4v4h12v-4h4v4h12v4h12v-4h8v-8h-4v-4h4v4h8v52h-8v4h-8v8h-16v4h-16v-16h-4v-16h-4v-4h-8v-4h-4v4h-8v8h-4v28h-20v-4h-16v-8h-8v-4h-8v-52h4v-4h4v12h8v4h12v-4h8v-4h8v4h12v-4h4v-16h4zm-27,28h-1v4h8v-4zm12,0h-1v4h4v-4zm8,0h-1v4h8v-4zm12,0h-1v4h4v-4zm8,0h-1v4h4v-4zm8,0h-1v4h4v-4zm8,0h-1v4h4v-4z" fill="#fff"/>
+<path d="m52,20h4v4h-4zm76,0h4v4h-4zm-44,20h4v4h-4zm-40,12h16v8h-4v-4h-8v4h-4zm76,0h16v8h-4v-4h-8v4h-4zm-40,8h20v4h-20zm68,12h4v4h-4zm-96,8h4v4h-4zm72,0h4v4h-4zm-36,4h4v8h4v8h4v8h4v8h-4v-4h-4v-12h-4v-8h-4v4h-4v-8h4zm-40,4h4v4h-4v4h-4v-4h4zm80,0h4v4h4v4h-4v-4h-4zm-48,12h4v12h-4v4h-4v-4h4zm-56,4h4v4h-4zm8,0h4v8h24v4h-8v4h-12v-4h-8zm116,0h8v4h-8v8h-8v4h-12v-4h-12v-4h28v-4h4zm-88,16h8v4h-8zm12,0h4v4h-4zm8,0h8v4h-8zm12,0h4v4h-4zm8,0h4v4h-4zm8,0h4v4h-4zm8,0h4v4h-4zm-96,16h4v20h-24v-8h4v-4h4v-4h12zm68,0h4v4h8v4h4v16h4v16h-32v-28h4v-8h8zm68,0h4v4h8v4h8v4h4v8h-24z" fill="#5aa"/>
+<path d="m88,20h4v4h4v4h4v4h4v8h-24v-8h4v-4h4zm-40,16h8v4h4v8h4v4h-24v-4h4v-8h4zm76,0h8v8h4v4h4v4h-24v-4h4v-8h4zm-48,28h28v8h4v4h4v4h12v4h4v8h4v4h8v-4h4v-4h4v-4h4v4h4v8h4v8h-16v8h-32v4h-8v-8h-4v-8h-4v-8h-4v-8h-4v4h-4v12h-4v12h-4v4h-8v-4h-32v-8h-16v-8h4v-8h4v-4h4v4h4v4h4v4h8v-4h4v-8h4v-4h12v-4h4v-4h4zm72,4h4v4h-4z" fill="#05a"/>
+</g>
+</defs>
+<use xlink:href="#dots"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" buffered-rendering="static" width="180px" height="180px" viewBox="0,0,180,180">
+<desc>
+This file was created by http://www.h2.dion.ne.jp/~defghi/img2svg3/dot2svg3.htm at Sun Jun 24 2018 14:05:52 GMT+0900 (JST)
+path count:5
+</desc>
+<defs>
+<g id="dots">
+<path d="m0,0h180v164h-4v-8h-4v-40h-4v-24h4v-12h-20v-4h-4v-4h4v-4h4v-4h-4v-12h-12v4h-4v-4h-4v-28h4v-4h-4v-8h-4v-4h-4v-4h-4v8h-4v4h-4v4h-4v4h4v28h-4v4h-4v-4h-12v16h4v8h-8v4h-4v-4h-8v4h-4v-4h-4v-24h4v-8h-4v-8h-8v4h-8v-4h-8v4h-4v-4h-12v8h-4v-8h-12v16h4v36h-12v8h-4zm0,104h8v52h-4v8h-4zm0,68h180v8h-180z" opacity="0"/>
+<path d="m120,4h4v4h-4zm8,8h4v4h-4zm-20,8h4v4h-4zm24,0h4v4h-4zm-120,16h4v4h-4zm16,0h4v4h-4zm8,0h4v4h4v4h-4v-4h-4zm-24,8h4v8h-4zm56,0h4v8h-4zm72,8h4v4h-4zm-124,4h4v32h-4zm48,0h4v16h-4zm88,8h4v4h-4v4h-4v-4h4zm-4,12h4v4h4v4h-4v-4h-4zm16,4h4v4h-4zm-164,16h4v8h-4zm168,20h4v40h4v4h-4v-4h-4zm-164,40h4v4h-4zm172,8h4v4h-4z" fill="#500" opacity="0.33"/>
+<path d="m120,8h8v8h4v36h4v8h8v-8h8v16h-4v12h4v4h4v-4h8v4h4v-4h4v8h-20v8h16v60h4v4h4v8h4v4h-68v-16h-44v16h-68v-4h4v-8h4v-52h8v-4h-8v-4h-4v-8h16v-40h-4v-12h8v4h8v-4h4v4h8v-4h4v-4h4v8h8v-4h8v12h-4v24h4v4h4v4h4v-4h8v4h4v-4h8v-12h-4v-16h8v4h8v-4h4v-4h4v-24h-4v-4h4v-8h4zm1,24h-1v8h4v-4h4v-4zm-88,36h-1v20h4v4h4v-24zm12,0h-1v8h4v4h-4v12h8v-24zm92,0h-1v4h8v-4zm-28,8h-1v4h-4v8h4v8h4v-20zm12,0h-1v20h4v-4h4v-12h-4v-4zm12,0h-1v16h4v4h4v-20zm-64,12h-1v4h20v4h4v-4h4v-4zm4,8h-1v8h16v-8zm84,8h-1v12h8v-12zm-48,8h-1v4h-4v12h4v4h4v-20zm12,0h-1v20h8v-16h-4v-4zm12,4h-1v16h8v-16zm24,12h-1v16h8v-16zm-128,4h-1v16h8v-16zm16,0h-1v16h8v-16zm20,0h-1v16h8v-16zm16,0h-1v16h8v-16z" fill="#a55"/>
+<path d="m112,16h4v4h-4zm0,8h4v24h-4zm-96,12h8v4h-8v4h-4v-4h4zm16,0h4v4h4v4h-4v-4h-4v4h-4v-4h4zm12,0h4v4h-4zm16,0h8v4h-8v4h-8v-4h8zm-44,16h4v4h-4zm48,0h4v4h-4zm36,0h4v4h-4zm36,4h8v4h-8zm-72,16h4v4h4v4h4v-4h8v4h4v-4h8v4h-8v4h-4v-4h-8v4h-4v-4h-4v-4h-4zm-60,16h16v4h-16zm164,0h4v4h-4zm-164,12h4v4h-4zm-4,64h4v4h-4z" fill="#555" opacity="0.67"/>
+<path d="m120,32h8v4h-4v4h-4zm-88,36h8v24h-4v-4h-4zm12,0h8v24h-8v-12h4v-4h-4zm92,0h8v4h-8zm-28,8h4v20h-4v-8h-4v-8h4zm12,0h4v4h4v12h-4v4h-4zm12,0h8v20h-4v-4h-4zm-64,12h28v4h-4v4h-4v8h-16v-8h16v-4h-20zm84,0h16v8h-16zm-144,16h8v4h-8zm148,0h8v12h-8zm-48,8h4v20h-4v-4h-4v-12h4zm12,0h4v4h4v16h-8zm12,4h8v16h-8zm24,12h8v16h-8zm-128,4h8v16h-8zm16,0h8v16h-8zm20,0h8v16h-8zm16,0h8v16h-8zm-12,24h44v16h-44z" fill="#500"/>
+</g>
+</defs>
+<use xlink:href="#dots"/>
+</svg>

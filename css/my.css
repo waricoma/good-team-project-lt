@@ -1,0 +1,325 @@
+@font-face {
+    font-family: '851H-kktt_004';
+    src: url(/lib/font/add/851H-kktt_004.ttf);
+}
+@font-face {
+    font-family: 'GLT-GonunneObsolete';
+    src: url(/lib/font/add/GLT-GonunneObsolete.otf);
+}
+@font-face {
+    font-family: 'GenEiAntique_v4';
+    src: url(/lib/font/add/GenEiAntique_v4.ttc);
+}
+@font-face {
+    font-family: 'fontopoSunnyDay-Regular';
+    src: url(/lib/font/add/fontopoSunnyDay-Regular.otf);
+}
+@font-face {
+    font-family: 'PixelMplus10-Regular';
+    src: url(/lib/font/add/PixelMplus10-Regular.ttf);
+}
+@font-face {
+    font-family: 'PixelMplus12-Regular';
+    src: url(/lib/font/add/PixelMplus12-Regular.ttf);
+}
+@font-face {
+    font-family: 'nicokaku_v1';
+    src: url(/lib/font/add/nicokaku_v1.ttf);
+}
+
+.waricoma{
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    animation: rotation 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align:center;
+}
+
+.waricoma > img{
+    filter: grayscale(100%);
+}
+
+.waricoma > span{
+    font-family: "PixelMplus12-Regular";
+    color: #55acee;
+    filter: drop-shadow(30px 30px 2px #FFFFFF);
+}
+
+@keyframes rotation {
+    0% {
+        top: 100%;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: -50%;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes title {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        top: 4.2px;
+        left: 4.2px;
+    }
+}
+
+.title{
+    font-family: "GLT-GonunneSpurious";
+    font-size: 10em;
+}
+
+.inside-shadow-layer{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 4.2em 1.5em rgba(0,0,0,0.6) inset;
+    animation: shadow 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shadow {
+    0%{
+        box-shadow: 0 0 4.2em 1.5em rgba(0,0,0,0.6) inset;
+    }
+    100%{
+        box-shadow: 0 0 4.2em 1.5em rgba(0,0,0,0.7) inset;
+    }
+}
+
+#solid-animation{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: solid #ffffffcc 15px;
+    transform-origin: 50% 50%;
+    box-sizing: border-box;
+    animation: solid-animation 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes solid-animation {
+    0% {
+        transform: rotate(360deg);
+    }
+    5% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    95%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#check-animation{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(52, 73, 94, 0.65) 25%, transparent 25%, transparent 75%, rgba(52, 73, 94, 0.65) 75%, rgba(52, 73, 94, 0.65)), linear-gradient(-45deg, rgba(52, 73, 94, 0.65) 25%, transparent 25%, transparent 75%, rgba(52, 73, 94, 0.65) 75%, rgba(52, 73, 94, 0.65));
+    background-size: 50px 50px;
+    transform-origin: 0 0;
+    animation: check-animation 300s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes check-animation {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.castle{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    filter: sepia(100%);
+    margin: 0;
+}
+
+.monster{
+    position: absolute;
+    animation: monster 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes monster {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#sepicoma{
+    width: 30%;
+    height: auto;
+    filter: sepia(100%);
+}
+
+#circles{
+    position: absolute;
+    width: 100%;
+    top: -10px;
+    left: 0;
+}
+
+#circlesTrigger{
+    display: none;
+}
+
+#titleStyle{
+    font-family: 'GLT-GonunneObsolete';
+    font-size: 2em;
+    background-color: black;
+    border: solid;
+    position: relative;
+    animation: title 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#profileStyle{
+    position: absolute;
+    font-family: 'GLT-GonunneObsolete';
+    background-color: black;
+    border: solid;
+    animation: title 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#ecMonsterStyle{
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+}
+
+#ecStyle{
+    font-family: 'PixelMplus10-Regular';
+    position: absolute;
+    left: 32.5%;
+    top: 58%;
+    display: inline-block;
+    font-size: 0.5em;
+    margin: 0;
+}
+
+#iotMonsterStyle{
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+}
+
+#iotStyle{
+    font-family: 'PixelMplus10-Regular';
+    position: absolute;
+    left: 55%;
+    top: 58%;
+    display: inline-block;
+    font-size: 0.5em;
+    margin: 0;
+}
+
+#gourmetMonsterStyle{
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+}
+
+#gourmetStyle{
+    font-family: 'PixelMplus10-Regular';
+    position: absolute;
+    left: 77.5%;
+    top: 58%;
+    display: inline-block;
+    font-size: 0.5em;
+    margin: 0;
+}
+
+#pointStyle{
+    position: absolute;
+    font-family: 'GLT-GonunneObsolete';
+    background-color: black;
+    border: solid;
+    animation: title 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#actionStyle{
+    position: absolute;
+    font-family: 'GLT-GonunneObsolete';
+    background-color: black;
+    border: solid;
+    animation: title 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#memoStyle{
+    position: absolute;
+    font-family: 'GLT-GonunneObsolete';
+    background-color: black;
+    border: solid;
+    animation: title 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#presentStyle{
+    position: absolute;
+    font-family: 'GLT-GonunneObsolete';
+    color: #f7f1e3;
+    background-color: black;
+    border: solid;
+    animation: title 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#thanksStyle{
+    position: absolute;
+    font-family: 'GLT-GonunneObsolete';
+    background-color: black;
+    border: solid;
+    animation: title 1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: drop-shadow(1px 1px 8px #000000);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    _::-webkit-full-page-media, _:future, :root #thanksStyle {
+        font-size: 2.3em;
+    }
+}

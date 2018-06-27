@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" buffered-rendering="static" width="170px" height="170px" viewBox="0,0,170,170">
+<desc>
+This file was created by http://www.h2.dion.ne.jp/~defghi/img2svg3/dot2svg3.htm at Sun Jun 24 2018 14:07:21 GMT+0900 (JST)
+path count:6
+</desc>
+<defs>
+<g id="dots">
+<path d="m0,0h170v170h-38v-22h-4v-56h4v-4h8v-4h4v-8h4v-32h20v-8h-4v-4h-20v4h-8v36h-4v4h-4v-8h-4v-20h-4v-8h-4v-4h-4v-4h-4v-4h-8v-4h-28v4h-8v4h-8v4h-4v8h-4v12h-4v20h-4v-4h-4v-32h-4v-4h-4v-4h-20v4h-4v8h20v32h4v8h4v4h8v82h-40z" opacity="0"/>
+<path d="m72,24h28v4h-28zm-64,8h4v4h-4v4h4v4h-8v-8h4zm16,0h4v4h-4zm32,0h4v4h-4v4h-4v-4h4zm88,0h4v4h-4zm16,0h4v4h4v8h-8v-4h4v-4h-4zm-24,4h4v4h-4zm-20,4h4v4h-4zm-68,4h4v4h-4zm72,4h4v4h-4zm-76,8h4v4h-4zm80,12h4v8h-4zm20,4h4v4h-4zm-116,8h4v4h4v4h-4v-4h-4zm112,0h4v4h-4v4h-4v-4h4zm-100,8h4v68h-4zm88,0h4v4h-4v8h-4v-8h4zm0,60h4v12h-4zm-88,20h92v2h-92z" fill="#550" opacity="0.33"/>
+<path d="m64,28h4v4h-4zm40,0h4v4h-4zm-84,4h4v4h-4zm128,0h4v4h-4zm-132,8h4v4h-4zm16,0h4v8h-4zm104,0h4v4h-4zm16,0h4v4h-4zm-104,8h4v4h-4zm72,4h4v4h-4zm-76,8h4v8h-4zm-20,4h4v12h-4zm120,0h4v8h-4zm-108,8h4v4h-4zm96,0h4v4h-4zm-8,28h4v28h-4zm-84,56h4v4h-4zm88,4h4v4h-4z" fill="#5a0" opacity="0.67"/>
+<path d="m68,28h36v4h4v4h4v4h4v4h4v16h4v20h8v-4h4v-12h4v-28h24v4h-16v16h-4v24h-4v4h-4v4h-12v44h4v32h4v4h-92v-4h4v-76h-8v-4h-4v-4h-4v-20h-4v-20h-16v-4h24v28h4v12h4v4h4v-8h4v-20h4v-8h4v-8h4v-4h8zm1,20h-1v4h-4v4h12v-8zm28,0h-1v8h8v-8zm-36,24h-1v4h-4v28h4v4h4v-4h4v-4h4v4h4v4h4v-4h8v4h8v-4h4v-4h4v4h4v4h4v-4h4v-24h-4v-4h-8v4h-8v-8h-4v4h-4v4h-8v-8h-8v8h-8v-8z" fill="#af0"/>
+<path d="m12,32h8v4h-8zm96,0h4v4h4v4h-4v-4h-4zm44,0h8v4h-8zm-140,8h4v4h-4zm8,0h4v4h-4zm32,0h4v4h-4zm96,0h4v4h-4zm8,0h4v4h-4zm-20,4h4v20h-4zm-104,4h4v16h-4zm88,8h4v4h-4zm24,0h4v8h-4zm-120,4h4v4h-4zm20,8h4v4h-4zm-4,8h4v4h-4zm84,0h8v4h-8zm0,12h4v4h-4zm0,40h4v4h-4zm-84,32h4v4h-4z" fill="#aa0"/>
+<path d="m68,48h8v8h-12v-4h4zm28,0h8v8h-8zm-36,24h4v8h8v-8h8v8h8v-4h4v-4h4v8h8v-4h8v4h4v24h-4v4h-4v-4h-4v-4h-4v4h-4v4h-8v-4h-8v4h-4v-4h-4v-4h-4v4h-4v4h-4v-4h-4v-28h4z" fill="#f50"/>
+</g>
+</defs>
+<use xlink:href="#dots"/>
+</svg>
